@@ -42,11 +42,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\Sitecore.Commerce.XA.Foundation.Catalog.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\packages\SC.Sitecore.Kernel.8.2.7\lib\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
@@ -58,7 +53,6 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Links\CatalogLinkProvider.cs" />
     <Compile Include="Links\LinkProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Media\MediaProvider.cs" />
